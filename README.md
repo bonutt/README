@@ -32,30 +32,9 @@ Com esses dados, o sistema decide automaticamente se há risco de enchente e aci
 - **Bloco `function`**: aplica a lógica de alerta
 - **MQTT (simulado)**: protocolo para transmitir dados de sensores
 
-🖥️ 3. Camada de Aplicação (Dashboard Web)
-
-- **Node-RED Dashboard (`/ui`)**
-  - `ui_gauge`: exibe temperatura
-  - `ui_gauge`: exibe umidade
-  - `ui_chart`: mostra gráfico do nível da água
-  - `ui_text`: alerta textual sobre risco de enchente
-
 🔗 Links
 
 - 🔧 **Projeto Wokwi (Simulação do ESP32)**: [Clique aqui](https://wokwi.com/projects/432983265256290305)
-- 📊 **Dashboard Node-RED (via FlowFuse/FRED)**: [Insira o link real do seu painel `/ui` aqui]
-
-🚀 Como Executar
-
-1. Wokwi
-- Acesse o link do projeto Wokwi
-- Clique em **“Start Simulation”**
-- Veja os dados sendo atualizados no Serial Monitor
-
-2. Node-RED
-- Acesse o editor Node-RED
-- Clique em **Deploy**
-- Acesse `/ui` para visualizar o dashboard em tempo real
 
 👨‍💻 Tecnologias Utilizadas
 
@@ -63,7 +42,7 @@ Com esses dados, o sistema decide automaticamente se há risco de enchente e aci
 - Sensores DHT22 e HC-SR04
 - Node-RED + Node-RED Dashboard
 - MQTT (simulado)
-- Wokwi + FlowFuse (ou FRED)
+- Wokwi + FlowFuse
 
 📷 Imagens do Projeto
 ![image](https://github.com/user-attachments/assets/59eed21c-92d4-44a5-a525-b8bfa6a437e7)
